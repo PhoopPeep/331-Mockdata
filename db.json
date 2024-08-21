@@ -1,0 +1,704 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "USA",
+            "gold" : 39,
+            "silver": 41,
+            "bronze": 33,
+            "details": {
+                "population": "331 million",
+                "capital": "Washington D.C.",
+                "language": "English",
+                "currency": "US Dollar (USD)",
+                "timezone": "UTC-4 to -12, +10, +11",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/USA.png"
+            },
+            "sports": [
+                {
+                    "name": "Athletics",
+                    "medals": {
+                        "gold": 7,
+                        "silver": 5,
+                        "bronze": 4
+                    },
+                    "events": ["100m", "200m", "4x100 Relay", "Long Jump"]
+                },
+                {
+                    "name": "Swimming",
+                    "medals": {
+                        "gold": 9,
+                        "silver": 8,
+                        "bronze": 6
+                    },
+                    "events": ["50m Freestyle", "100m Butterfly", "4x100 Medley"]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "China",
+            "gold" : 38,
+            "silver": 32,
+            "bronze": 18,
+            "details": {
+                "population": "1.4 billion",
+                "capital": "Beijing",
+                "language": "Mandarin",
+                "currency": "Renminbi (CNY)",
+                "timezone": "UTC+8",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/CHN.png"
+            },
+            "sports": [
+                {
+                    "name": "Table Tennis",
+                    "medals": {
+                        "gold": 4,
+                        "silver": 3,
+                        "bronze": 2
+                    },
+                    "events": ["Singles", "Doubles", "Mixed Doubles"]
+                },
+                {
+                    "name": "Weightlifting",
+                    "medals": {
+                        "gold": 7,
+                        "silver": 2,
+                        "bronze": 1
+                    },
+                    "events": ["Men's 61 kg", "Women's 49 kg"]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Japan",
+            "gold" : 27,
+            "silver": 14,
+            "bronze": 17,
+            "details": {
+                "population": "126 million",
+                "capital": "Tokyo",
+                "language": "Japanese",
+                "currency": "Yen (JPY)",
+                "timezone": "UTC+9",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/JPN.png"
+            },
+            "sports": [
+                {
+                    "name": "Judo",
+                    "medals": {
+                        "gold": 9,
+                        "silver": 3,
+                        "bronze": 1
+                    },
+                    "events": ["Men's 60kg", "Women's 48kg", "Mixed Team"]
+                },
+                {
+                    "name": "Wrestling",
+                    "medals": {
+                        "gold": 5,
+                        "silver": 3,
+                        "bronze": 2
+                    },
+                    "events": ["Freestyle 57kg", "Greco-Roman 60kg"]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Australia",
+            "gold" : 17,
+            "silver": 7,
+            "bronze": 22,
+            "details": {
+                "population": "25 million",
+                "capital": "Canberra",
+                "language": "English",
+                "currency": "Australian Dollar (AUD)",
+                "timezone": "UTC+8 to +10",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/AUS.png"
+            },
+            "sports": [
+                {
+                    "name": "Swimming",
+                    "medals": {
+                        "gold": 9,
+                        "silver": 3,
+                        "bronze": 8
+                    },
+                    "events": ["Women's 100m Freestyle", "Men's 200m Butterfly"]
+                },
+                {
+                    "name": "Sailing",
+                    "medals": {
+                        "gold": 3,
+                        "silver": 2,
+                        "bronze": 0
+                    },
+                    "events": ["49er", "Laser"]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "France",
+            "gold": 10,
+            "silver": 12,
+            "bronze": 11,
+            "details": {
+              "population": "67 million",
+              "capital": "Paris",
+              "language": "French",
+              "currency": "Euro (EUR)",
+              "timezone": "UTC+1",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/FRA.png"
+            },
+            "sports": [
+                {
+                    "name": "Judo",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 1,
+                        "bronze": 3
+                    },
+                    "events": ["Men's 81kg", "Women's 63kg"]
+                },
+                {
+                    "name": "Fencing",
+                    "medals": {
+                        "gold": 3,
+                        "silver": 2,
+                        "bronze": 1
+                    },
+                    "events": ["Team Épée", "Women's Foil"]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Netherlands",
+            "gold": 10,
+            "silver": 12,
+            "bronze": 14,
+            "details": {
+              "population": "17 million",
+              "capital": "Amsterdam",
+              "language": "Dutch",
+              "currency": "Euro (EUR)",
+              "timezone": "UTC+1",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/NED.png"
+            },
+            "sports": [
+                {
+                    "name": "Cycling",
+                    "medals": {
+                        "gold": 4,
+                        "silver": 5,
+                        "bronze": 3
+                    },
+                    "events": ["Track Cycling", "Road Cycling"]
+                },
+                {
+                    "name": "Rowing",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 2,
+                        "bronze": 1
+                    },
+                    "events": ["Men's Eight", "Women's Quadruple Sculls"]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Great Britain",
+            "gold": 22,
+            "silver": 21,
+            "bronze": 22,
+            "details": {
+              "population": "67 million",
+              "capital": "London",
+              "language": "English",
+              "currency": "Pound Sterling (GBP)",
+              "timezone": "UTC±0",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/GBR.png"
+            },
+            "sports": [
+                {
+                    "name": "Cycling",
+                    "medals": {
+                        "gold": 6,
+                        "silver": 4,
+                        "bronze": 2
+                    },
+                    "events": ["Track Cycling", "Road Cycling"]
+                },
+                {
+                    "name": "Boxing",
+                    "medals": {
+                        "gold": 3,
+                        "silver": 1,
+                        "bronze": 2
+                    },
+                    "events": ["Men's Flyweight", "Women's Middleweight"]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "South Korea",
+            "gold": 6,
+            "silver": 4,
+            "bronze": 10,
+            "details": {
+              "population": "52 million",
+              "capital": "Seoul",
+              "language": "Korean",
+              "currency": "South Korean Won (KRW)",
+              "timezone": "UTC+9",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/KOR.png"
+            },
+            "sports": [
+                {
+                    "name": "Archery",
+                    "medals": {
+                        "gold": 3,
+                        "silver": 1,
+                        "bronze": 2
+                    },
+                    "events": ["Men's Team", "Women's Individual"]
+                },
+                {
+                    "name": "Taekwondo",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 2,
+                        "bronze": 1
+                    },
+                    "events": ["Men's 58kg", "Women's 67kg"]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Italy",
+            "gold": 10,
+            "silver": 10,
+            "bronze": 20,
+            "details": {
+              "population": "60 million",
+              "capital": "Rome",
+              "language": "Italian",
+              "currency": "Euro (EUR)",
+              "timezone": "UTC+1",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/ITA.png"
+            },
+            "sports": [
+                {
+                    "name": "Fencing",
+                    "medals": {
+                        "gold": 3,
+                        "silver": 4,
+                        "bronze": 2
+                    },
+                    "events": ["Men's Foil", "Women's Sabre"]
+                },
+                {
+                    "name": "Athletics",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 2,
+                        "bronze": 1
+                    },
+                    "events": ["Men's 100m", "4x100m Relay"]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Germany",
+            "gold": 10,
+            "silver": 11,
+            "bronze": 16,
+            "details": {
+              "population": "83 million",
+              "capital": "Berlin",
+              "language": "German",
+              "currency": "Euro (EUR)",
+              "timezone": "UTC+1",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/GER.png"
+            },
+            "sports": [
+                {
+                    "name": "Equestrian",
+                    "medals": {
+                        "gold": 4,
+                        "silver": 2,
+                        "bronze": 3
+                    },
+                    "events": ["Team Dressage", "Individual Jumping"]
+                },
+                {
+                    "name": "Rowing",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 3,
+                        "bronze": 1
+                    },
+                    "events": ["Men's Four", "Women's Eight"]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "New Zealand",
+            "gold": 7,
+            "silver": 6,
+            "bronze": 7,
+            "details": {
+              "population": "5 million",
+              "capital": "Wellington",
+              "language": "English, Maori",
+              "currency": "New Zealand Dollar (NZD)",
+              "timezone": "UTC+12",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/NZL.png"
+            },
+            "sports": [
+                {
+                    "name": "Rugby Sevens",
+                    "medals": {
+                        "gold": 1,
+                        "silver": 0,
+                        "bronze": 0
+                    },
+                    "events": ["Men's Tournament"]
+                },
+                {
+                    "name": "Rowing",
+                    "medals": {
+                        "gold": 3,
+                        "silver": 2,
+                        "bronze": 2
+                    },
+                    "events": ["Women's Single Sculls", "Men's Pair"]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Canada",
+            "gold": 7,
+            "silver": 6,
+            "bronze": 11,
+            "details": {
+              "population": "38 million",
+              "capital": "Ottawa",
+              "language": "English, French",
+              "currency": "Canadian Dollar (CAD)",
+              "timezone": "UTC−3.5 to −8",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/CAN.png"
+            },
+            "sports": [
+                {
+                    "name": "Athletics",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 1,
+                        "bronze": 2
+                    },
+                    "events": ["Men's 200m", "Women's 100m Hurdles"]
+                },
+                {
+                    "name": "Swimming",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 2,
+                        "bronze": 3
+                    },
+                    "events": ["Women's 100m Freestyle", "Men's 400m Freestyle"]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Hungary",
+            "gold": 6,
+            "silver": 7,
+            "bronze": 7,
+            "details": {
+              "population": "9.6 million",
+              "capital": "Budapest",
+              "language": "Hungarian",
+              "currency": "Hungarian Forint (HUF)",
+              "timezone": "UTC+1",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/HUN.png"
+            },
+            "sports": [
+                {
+                    "name": "Swimming",
+                    "medals": {
+                        "gold": 3,
+                        "silver": 2,
+                        "bronze": 1
+                    },
+                    "events": ["Women's 200m Butterfly", "Men's 400m IM"]
+                },
+                {
+                    "name": "Canoeing",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 3,
+                        "bronze": 3
+                    },
+                    "events": ["Women's K1 500m", "Men's C2 1000m"]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Spain",
+            "gold": 10,
+            "silver": 12,
+            "bronze": 14,
+            "details": {
+                "population": "47 million",
+                "capital": "Madrid",
+                "language": "Spanish",
+                "currency": "Euro (EUR)",
+                "timezone": "UTC+1",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/ESP.png"
+            },
+            "sports": [
+                {
+                    "name": "Football",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 1,
+                        "bronze": 0
+                    },
+                    "events": ["Men's Football", "Women's Football"]
+                },
+                {
+                    "name": "Tennis",
+                    "medals": {
+                        "gold": 3,
+                        "silver": 2,
+                        "bronze": 1
+                    },
+                    "events": ["Men's Singles", "Women's Singles"]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Sweden",
+            "gold": 8,
+            "silver": 6,
+            "bronze": 12,
+            "details": {
+                "population": "10 million",
+                "capital": "Stockholm",
+                "language": "Swedish",
+                "currency": "Swedish Krona (SEK)",
+                "timezone": "UTC+1",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/SWE.png"
+            },
+            "sports": [
+                {
+                    "name": "Athletics",
+                    "medals": {
+                        "gold": 4,
+                        "silver": 2,
+                        "bronze": 3
+                    },
+                    "events": ["Men's Javelin", "Women's High Jump"]
+                },
+                {
+                    "name": "Wrestling",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 1,
+                        "bronze": 4
+                    },
+                    "events": ["Men's Greco-Roman", "Women's Freestyle"]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Kenya",
+            "gold": 11,
+            "silver": 9,
+            "bronze": 4,
+            "details": {
+                "population": "53 million",
+                "capital": "Nairobi",
+                "language": "Swahili, English",
+                "currency": "Kenyan Shilling (KES)",
+                "timezone": "UTC+3",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/KEN.png"
+            },
+            "sports": [
+                {
+                    "name": "Athletics",
+                    "medals": {
+                        "gold": 8,
+                        "silver": 5,
+                        "bronze": 2
+                    },
+                    "events": ["Men's 1500m", "Women's Marathon"]
+                },
+                {
+                    "name": "Boxing",
+                    "medals": {
+                        "gold": 1,
+                        "silver": 2,
+                        "bronze": 1
+                    },
+                    "events": ["Men's Lightweight", "Women's Flyweight"]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Norway",
+            "gold": 6,
+            "silver": 4,
+            "bronze": 8,
+            "details": {
+                "population": "5 million",
+                "capital": "Oslo",
+                "language": "Norwegian",
+                "currency": "Norwegian Krone (NOK)",
+                "timezone": "UTC+1",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/NOR.png"
+            },
+            "sports": [
+                {
+                    "name": "Skiing",
+                    "medals": {
+                        "gold": 4,
+                        "silver": 3,
+                        "bronze": 4
+                    },
+                    "events": ["Men's Cross-Country", "Women's Alpine Skiing"]
+                },
+                {
+                    "name": "Biathlon",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 1,
+                        "bronze": 2
+                    },
+                    "events": ["Men's Sprint", "Women's Relay"]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Brazil",
+            "gold": 15,
+            "silver": 9,
+            "bronze": 12,
+            "details": {
+                "population": "213 million",
+                "capital": "Brasilia",
+                "language": "Portuguese",
+                "currency": "Brazilian Real (BRL)",
+                "timezone": "UTC-3",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/BRA.png"
+            },
+            "sports": [
+                {
+                    "name": "Football",
+                    "medals": {
+                        "gold": 5,
+                        "silver": 2,
+                        "bronze": 3
+                    },
+                    "events": ["Men's Football", "Women's Football"]
+                },
+                {
+                    "name": "Volleyball",
+                    "medals": {
+                        "gold": 4,
+                        "silver": 3,
+                        "bronze": 2
+                    },
+                    "events": ["Men's Volleyball", "Women's Beach Volleyball"]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Romania",
+            "gold": 7,
+            "silver": 5,
+            "bronze": 9,
+            "details": {
+                "population": "19 million",
+                "capital": "Bucharest",
+                "language": "Romanian",
+                "currency": "Romanian Leu (RON)",
+                "timezone": "UTC+2",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/ROU.png"
+            },
+            "sports": [
+                {
+                    "name": "Gymnastics",
+                    "medals": {
+                        "gold": 5,
+                        "silver": 3,
+                        "bronze": 4
+                    },
+                    "events": ["Women's All-Around", "Men's Floor Exercise"]
+                },
+                {
+                    "name": "Rowing",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 2,
+                        "bronze": 3
+                    },
+                    "events": ["Women's Double Sculls", "Men's Eight"]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Belgium",
+            "gold": 4,
+            "silver": 7,
+            "bronze": 10,
+            "details": {
+                "population": "11 million",
+                "capital": "Brussels",
+                "language": "Dutch, French, German",
+                "currency": "Euro (EUR)",
+                "timezone": "UTC+1",
+                "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/BEL.png"
+            },
+            "sports": [
+                {
+                    "name": "Cycling",
+                    "medals": {
+                        "gold": 2,
+                        "silver": 3,
+                        "bronze": 5
+                    },
+                    "events": ["Men's Road Race", "Women's Track Cycling"]
+                },
+                {
+                    "name": "Hockey",
+                    "medals": {
+                        "gold": 1,
+                        "silver": 2,
+                        "bronze": 3
+                    },
+                    "events": ["Men's Field Hockey", "Women's Field Hockey"]
+                }
+            ]
+        }
+    ]
+}

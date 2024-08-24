@@ -29,8 +29,131 @@
                         "bronze": 6
                     }
                 }
+            ]     
+        },
+        {
+            "id": 2,
+            "name": "China",
+            "gold" : 38,
+            "silver": 32,
+            "bronze": 18,
+            "population": "1.4 billion",
+            "capital": "Beijing",
+            "language": "Mandarin",
+            "currency": "Renminbi (CNY)",
+            "timezone": "UTC+8",
+            "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/CHN.png",
+            "sports": [
+                {
+                    "sport_id": 12,
+                    "medals": {
+                        "gold": 7,
+                        "silver": 2,
+                        "bronze": 1
+                    }
+                },
+                {
+                    "sport_id": 13,
+                    "medals": {
+                        "gold": 4,
+                        "silver": 3,
+                        "bronze": 2
+                    }
+                }
+            ]     
+        },
+        {
+            "id": 3,
+            "name": "Japan",
+            "gold" : 27,
+            "silver": 14,
+            "bronze": 17,
+            "population": "126 million",
+            "capital": "Tokyo",
+            "language": "Japanese",
+            "currency": "Yen (JPY)",
+            "timezone": "UTC+9",
+            "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/JPN.png",
+            "sports": [
+                {
+                    "sport_id": 11,
+                    "medals": {
+                        "gold": 5,
+                        "silver": 3,
+                        "bronze": 2
+                    }
+                },
+                {
+                    "sport_id": 15,
+                    "medals": {
+                        "gold": 9,
+                        "silver": 3,
+                        "bronze": 1
+                    }
+                }
             ]
-                
+        },
+        {
+            "id": 4,
+            "name": "Australia",
+            "gold" : 17,
+            "silver": 7,
+            "bronze": 22,
+            "population": "25 million",
+            "capital": "Canberra",
+            "language": "English",
+            "currency": "Australian Dollar (AUD)",
+            "timezone": "UTC+8 to +10",
+            "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/AUS.png",
+            "sports": [
+                {
+                    "sport_id": 12,
+                    "medals": {
+                        "gold": 9,
+                        "silver": 3,
+                        "bronze": 8
+                    }
+                },
+                {
+                    "sport_id": 14,
+                    "medals": {
+                        "gold": 3,
+                        "silver": 2,
+                        "bronze": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "France",
+            "gold": 10,
+            "silver": 12,
+            "bronze": 11,
+            "population": "67 million",
+            "capital": "Paris",
+            "language": "French",
+            "currency": "Euro (EUR)",
+            "timezone": "UTC+1",
+            "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/FRA.png",
+            "sports": [
+                {
+                    "sport_id": 14,
+                    "medals": {
+                        "gold": 3,
+                        "silver": 2,
+                        "bronze": 1
+                    }
+                },
+                {
+                    "sport_id": 15,
+                    "medals": {
+                        "gold": 2,
+                        "silver": 1,
+                        "bronze": 3
+                    }
+                }
+            ]
         }
     ],
     "sports": [

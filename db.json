@@ -154,6 +154,161 @@
                     }
                 }
             ]
+        },
+        {
+            "id": 6,
+            "name": "Netherlands",
+            "gold": 10,
+            "silver": 12,
+            "bronze": 14,
+            "population": "17 million",
+            "capital": "Amsterdam",
+            "language": "Dutch",
+            "currency": "Euro (EUR)",
+            "timezone": "UTC+1",
+            "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/NED.png",
+            "sports": [
+                {
+                    "sport_id": 11,
+                    "medals": {
+                        "gold": 2,
+                        "silver": 2,
+                        "bronze": 1
+                    }
+                },
+                {
+                    "sport_id": 14,
+                    "medals": {
+                        "gold": 4,
+                        "silver": 5,
+                        "bronze": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Great Britain",
+            "gold": 22,
+            "silver": 21,
+            "bronze": 22,
+            "population": "67 million",
+            "capital": "London",
+            "language": "English",
+            "currency": "Pound Sterling (GBP)",
+            "timezone": "UTC±0",
+            "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/GBR.png",
+            "sports": [
+                {
+                    "sport_id": 13,
+                    "medals": {
+                        "gold": 3,
+                        "silver": 1,
+                        "bronze": 2
+                    }
+                },
+                {
+                    "sport_id": 14,
+                    "medals": {
+                        "gold": 6,
+                        "silver": 4,
+                        "bronze": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "South Korea",
+            "gold": 6,
+            "silver": 4,
+            "bronze": 10,
+            "population": "52 million",
+            "capital": "Seoul",
+            "language": "Korean",
+            "currency": "South Korean Won (KRW)",
+            "timezone": "UTC+9",
+            "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/KOR.png",
+            "sports": [
+                {
+                    "sport_id": 13,
+                    "medals": {
+                        "gold": 3,
+                        "silver": 1,
+                        "bronze": 2
+                    }
+                },
+                {
+                    "sport_id": 15,
+                    "medals": {
+                        "gold": 2,
+                        "silver": 2,
+                        "bronze": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Italy",
+            "gold": 10,
+            "silver": 10,
+            "bronze": 20,
+              "population": "60 million",
+              "capital": "Rome",
+              "language": "Italian",
+              "currency": "Euro (EUR)",
+              "timezone": "UTC+1",
+              "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/ITA.png",
+            "sports": [
+                {
+                    "sport_id": 11,
+                    "medals": {
+                        "gold": 2,
+                        "silver": 2,
+                        "bronze": 1
+                    }
+                },
+                {
+                    "sport_id": 12,
+                    "medals": {
+                        "gold": 3,
+                        "silver": 4,
+                        "bronze": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Germany",
+            "gold": 10,
+            "silver": 11,
+            "bronze": 16,
+            "population": "83 million",
+            "capital": "Berlin",
+            "language": "German",
+            "currency": "Euro (EUR)",
+            "timezone": "UTC+1",
+            "flag_url": "https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/GER.png",
+            "sports": [
+                {
+                    "sport_id": 13,
+                    "medals": {
+                        "gold": 4,
+                        "silver": 2,
+                        "bronze": 3
+                    }
+                },
+                {
+                    "sport_id": 15,
+                    "medals": {
+                        "gold": 2,
+                        "silver": 3,
+                        "bronze": 1
+                    }
+                }
+            ]
         }
     ],
     "sports": [
@@ -179,3 +334,4 @@
         }
     ]
 }
+
